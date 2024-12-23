@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.landing
+{
+    background: url("./R.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+.landing h1
+{
+    text-align: center;
+    font-size: 57px;
+    color: #ffffff;
+    padding-top: 180px;
+    opacity: 0.7;
+}
+.landing p
+{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(241, 255, 118);
+    padding-top: 20px;
+    font-style: italic;
+    opacity: 0.7;
+}
+button
+{
+    padding: 5px 35px;
+    background-color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 45%;
+    opacity: 0.7;
+    border:rgb(145, 143, 143);
+    border-radius: 7px;
+    color: rgba(254, 6, 6, 0.92);
+    
+}

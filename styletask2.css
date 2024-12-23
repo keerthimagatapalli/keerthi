@@ -1,0 +1,31 @@
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.962),rgb(1, 6, 69),rgba(21, 21, 108, 0.901),rgb(1, 6, 69));
+    
+    color: aliceblue;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.details{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.details button{
+    width: 20%;
+    padding: 10px;
+    background: rgb(30, 90, 135);
+    border: none;
+    border-radius: 20px;
+    color: rgb(231, 25, 25);
+}
